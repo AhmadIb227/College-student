@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Form1">
+  <grid id="27dc6" binding="mainPanel" layout-manager="GridLayoutManager" row-count="8" column-count="6" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="32" y="21" width="696" height="504"/>
+    </constraints>
+    <properties>
+      <background color="-14512479"/>
+      <font name="Fira Code" size="20"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="b78d9" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="5" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-3550403"/>
+          <foreground color="-10385942"/>
+        </properties>
+        <border type="none"/>
+        <children/>
+      </grid>
+      <scrollpane id="e01ea" binding="scrollPan1">
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="6" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-13631536"/>
+          <foreground color="-14098454"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="44d34" class="javax.swing.JTable" binding="table1" default-binding="true">
+            <constraints/>
+            <properties>
+              <autoCreateRowSorter value="false"/>
+              <background color="-3675428"/>
+              <font name="Fira Code"/>
+              <foreground color="-16777216"/>
+              <gridColor color="-3675428"/>
+              <selectionBackground color="-15049359"/>
+            </properties>
+          </component>
+        </children>
+      </scrollpane>
+      <component id="13b6d" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16777216"/>
+          <font name="Fira Code" size="14"/>
+          <foreground color="-16777216"/>
+          <text value="SSN"/>
+        </properties>
+      </component>
+      <component id="c31eb" class="javax.swing.JTextField" binding="ssnTxt">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="88" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-458822"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="9d63d" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Droid Sans" size="14"/>
+          <foreground color="-16777216"/>
+          <labelFor value="a3880"/>
+          <text value="name"/>
+        </properties>
+      </component>
+      <component id="d3e3d" class="javax.swing.JTextField" binding="nameTxt">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="195" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-458822"/>
+          <font name="Fira Code" size="12"/>
+        </properties>
+      </component>
+      <component id="327fe" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Fira Code" size="14"/>
+          <foreground color="-16777216"/>
+          <text value="age"/>
+        </properties>
+      </component>
+      <component id="a3880" class="javax.swing.JTextField" binding="ageTxt">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="195" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-458822"/>
+          <font name="Fira Code" size="12"/>
+        </properties>
+      </component>
+      <component id="fc20a" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16777216"/>
+          <font name="Fira Code" size="14"/>
+          <foreground color="-16777216"/>
+          <text value="Address"/>
+        </properties>
+      </component>
+      <component id="6b590" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16777216"/>
+          <font name="Fira Code" size="14"/>
+          <foreground color="-16777216"/>
+          <text value="phone"/>
+        </properties>
+      </component>
+      <component id="582d0" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="City"/>
+        </properties>
+      </component>
+      <component id="a0ccd" class="javax.swing.JRadioButton" binding="femaleRadioButton" default-binding="true">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-3675428"/>
+          <font name="Fira Code" size="14"/>
+          <foreground color="-16777216"/>
+          <text value="female"/>
+        </properties>
+      </component>
+      <component id="cd400" class="javax.swing.JRadioButton" binding="maleRadioButton" default-binding="true">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-3675428"/>
+          <font name="Fira Code" size="14"/>
+          <foreground color="-16777216"/>
+          <text value="Male"/>
+        </properties>
+      </component>
+      <component id="1d30b" class="javax.swing.JButton" binding="deleteButton">
+        <constraints>
+          <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-14971229"/>
+          <icon value="icons/icons8-delete-24 (1).png"/>
+          <text value="Delete"/>
+        </properties>
+      </component>
+      <component id="d8d5" class="javax.swing.JComboBox" binding="cityCompo">
+        <constraints>
+          <grid row="3" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="88" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-458822"/>
+        </properties>
+      </component>
+      <component id="5c783" class="javax.swing.JTextField" binding="addressTxt">
+        <constraints>
+          <grid row="1" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="88" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-458822"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="5aadd" class="javax.swing.JTextField" binding="phoneTxt">
+        <constraints>
+          <grid row="2" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="195" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-458822"/>
+        </properties>
+      </component>
+      <component id="ade52" class="javax.swing.JButton" binding="saveButton" default-binding="true">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-14971229"/>
+          <icon value="icons/icons8-save-26 (1).png"/>
+          <text value="save"/>
+        </properties>
+      </component>
+      <component id="2cd54" class="javax.swing.JButton" binding="addButton" default-binding="true">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="88" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-14971229"/>
+          <icon value="icons/icons8-add-26.png"/>
+          <text value="Add"/>
+        </properties>
+      </component>
+      <grid id="74faf" layout-manager="CardLayout" hgap="0" vgap="0">
+        <constraints>
+          <grid row="0" column="5" row-span="4" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-14835044"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="b5e26" class="javax.swing.JLabel" binding="imagelabel">
+            <constraints>
+              <card name="Card1"/>
+            </constraints>
+            <properties>
+              <background color="-3675428"/>
+              <foreground color="-3675428"/>
+              <text value=""/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <component id="a4be5" class="javax.swing.JButton" binding="loadImageButton" default-binding="true">
+        <constraints>
+          <grid row="4" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-14971229"/>
+          <icon value="icons/icons8-add-image-16.png"/>
+          <text value="load image"/>
+        </properties>
+      </component>
+      <grid id="ea851" layout-manager="GridLayoutManager" row-count="1" column-count="6" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="6" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-3675428"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="7b51d" class="javax.swing.JTextField" binding="searchBySSNTextField" default-binding="true">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <foreground color="-11184553"/>
+              <text value="Search by SSN"/>
+            </properties>
+          </component>
+          <hspacer id="12baa">
+            <constraints>
+              <grid row="0" column="5" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </hspacer>
+          <hspacer id="6295a">
+            <constraints>
+              <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </hspacer>
+          <hspacer id="55f02">
+            <constraints>
+              <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </hspacer>
+          <hspacer id="421c1">
+            <constraints>
+              <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </hspacer>
+          <component id="488d3" class="javax.swing.JButton" binding="goButton" default-binding="true">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <icon value="icons/icons8-search-16.png"/>
+              <text value="go"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
